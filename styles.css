@@ -16,36 +16,83 @@ body
     width: 350px;
     height: 200px; 
     position: absolute;
-    top: 200px;
-    right: 150px;
+    top: 170px;
+    right: 200px;
+    
 }
-/*#name
+
+
+#presentation,#role,#name
 {
-
+    color: rgb(100, 96, 93);
 }
-
+#name
+{
+    font-size: 40px;
+}
 #role
 {
-    
+    font-size: 25px;
 }
 
 #presentation
 {
-    
-}*/
+    font-size: 19px;
+}
 
+.bouton
+{
+    border:2cm;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 23px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #efa26a;
+    color: #539d86;
+    border-radius: 20px;
+    
+}
+
+.bouton:hover 
+{
+    background-color: #539d86;
+    color:#efa26a;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
 .conteneur
 {
     display: flex;
     flex-direction: row;
+    
 }
 .objet2
 {
     width: 600px;
     height: 200px; 
     position: absolute;
+    top: 200px;
+    left: 750px;
+    transform: translate(-50%, -50%);
+}
+
+#mypicture
+{
+    width: 350px;
+    height: auto;
+    filter: drop-shadow(10px 35px 10px rgba(165, 47, 47, 0.5));
+}
+
+.objet3
+{
+    width: 600px;
+    height: 200px; 
+    position: absolute;
     bottom: 40px;
     left: 40px;
+    color: #539d86;
 }
 
 #find
@@ -53,7 +100,6 @@ body
     position: absolute;
     bottom: 40px;
     left: 1px; 
-    
 }
 
 
@@ -73,4 +119,25 @@ body
     position: absolute;
     bottom: 0px;
     left: 35px; 
+}
+
+.objet4
+{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index:1;
+    top:0;
+    right:-200px;
+    background-color: #efa26a;
+    padding-top: 60%;
+    transition: right 0.5s ease;
+
+}
+
+.objet4 a
+{
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
 }
