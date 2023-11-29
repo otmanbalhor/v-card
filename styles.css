@@ -1,0 +1,76 @@
+body
+{
+    background-image: url('fond.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#logo
+{
+    width: 100px;
+    height: auto;
+}
+.objet
+{
+    width: 350px;
+    height: 200px; 
+    position: absolute;
+    top: 200px;
+    right: 150px;
+}
+/*#name
+{
+
+}
+
+#role
+{
+    
+}
+
+#presentation
+{
+    
+}*/
+
+.conteneur
+{
+    display: flex;
+    flex-direction: row;
+}
+.objet2
+{
+    width: 600px;
+    height: 200px; 
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+#find
+{
+    position: absolute;
+    bottom: 40px;
+    left: 1px; 
+    
+}
+
+
+#github
+{
+    width: 25px;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 5px; 
+}
+
+#linkedin
+{
+    width: 49px;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 35px; 
+}
